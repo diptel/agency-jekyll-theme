@@ -1,7 +1,7 @@
 /* Slider */
 
 .slick-slide {
-    margin: 10px 10px;
+    margin: 0px 20px;
 }
 
 .slick-slide img {
@@ -10,7 +10,7 @@
 
 .slick-slider
 {
-    position: static;
+    position: relative;
     display: block;
     box-sizing: border-box;
     -webkit-user-select: none;
@@ -26,7 +26,7 @@
 
 .slick-list
 {
-    position: static;
+    position: relative;
     display: block;
     overflow: hidden;
     margin: 0;
@@ -54,7 +54,7 @@
 
 .slick-track
 {
-    position: static;
+    position: relative;
     top: 0;
     left: 0;
     display: block;
@@ -78,7 +78,7 @@
 {
     display: none;
     float: left;
-    height: 100px;
+    height: 50%;
     min-height: 1px;
 }
 [dir='rtl'] .slick-slide
